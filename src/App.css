@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  padding-left: 15px;
+
+}
+
+button {
+  cursor: pointer;
+  width: 100%;
+  color: white;
+  height: 50px;
+}
