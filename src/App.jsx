@@ -1,10 +1,12 @@
 import './App.css';
-import Form from './assets/components/Form';
+import Form from './components/Form';
+import FormWithFormSubmit from './components/FormWithFormSubmit';
 
 function App() {
   return (
     <div className='App'>
       <Form />
+      <FormWithFormSubmit />
     </div>
   );
 }

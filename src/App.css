@@ -10,11 +10,19 @@
   font-size: 1.5rem;
 }
 
+.App {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
 form {
   display: flex;
   flex-direction: column;
   gap: 10px;
   width: 400px;
+  margin-bottom: 100px;
 }
 
 input {
